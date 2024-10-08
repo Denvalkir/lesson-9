@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --container-padding-x: 50px 50px;
+  --header-heigh: 150px;
+  --footer-heigh: 350px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
