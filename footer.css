@@ -1,0 +1,27 @@
+footer li {
+  list-style: none;
+  padding: 5px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer .made-with {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 20px;
+}
+
+footer img {
+  width: 20px;
+}
+
+footer {
+  padding: var(--container-padding-x);
+  height: var(--footer-heigh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
